@@ -1,0 +1,211 @@
+header{
+    background-color: #fa3432;
+    height: 1.226667rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    color: #fff;
+    font-size: .373333rem;
+}
+header a{
+    color: #fff;
+    
+}
+header .iconfont{
+    font-size: .4rem;
+}
+.date{
+    height: 2.96rem;
+    color: #fff;
+    text-align: center;
+    padding-top: .666667rem;
+    background: linear-gradient(to bottom,#ff3c01,#d80607);
+}
+.date .date1{
+    font-size: .906667rem;
+    margin-bottom: .56rem;
+}
+.date .date2{
+    font-size: .4rem;
+}
+
+.support .keys{
+    height: 1.053333rem;
+    font-size: .4rem;
+    color: #777;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #f1f0f0;
+}
+.support .keys span{
+    height: .32rem;
+    text-align: center;
+}
+.support .keys span:first-child{
+    border-right: 1px solid #f1f0f0;
+}
+.support ul{
+    height:2.03rem;
+    width: 6.4rem;
+    display: flex;
+    margin: .4rem auto 0rem;
+    flex-wrap: wrap;
+    align-content: space-around;
+    background: url("../img/detail_icon_bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+.support ul li{
+    width: 50%;
+    height: .55rem;
+    line-height: .55rem;
+    color: #ffc166;
+    font-size: .24rem;
+    text-align: center;
+}
+.support ul li .iconfont{
+    display: inline-block;
+    width: .55rem;
+    height: .55rem;
+    font-size: .26rem;
+    border: 3px solid #f5f5f4;
+    border-radius: 50%;
+    margin-right: .13rem;
+}
+.process{
+    margin-top: .75rem;
+}
+.process .pro-wrap{
+    position: relative;
+    width: 6.82rem;
+    height: .15rem;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+
+}
+.process .pro-wrap .pro-font{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 0.15rem;
+    background-color: #fb0502;
+    border-radius: 8px;
+
+}
+.process .pro-wrap .pro-block{
+    position: absolute;
+    top: -0.5rem;
+    left: 2.7rem;
+    width: .6rem;
+    height: .32rem;
+    line-height: .32rem;
+    text-align: center;
+    color: #fff;
+    background-color: #fb0502;
+    font-size: .24rem;
+
+}
+.process .pro-wrap .pro-block:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: .12rem solid transparent;
+    border-top: .12rem solid #fb0502;
+    position: absolute;
+    left: 50%;
+    top: .35rem;
+    transform: translateX(-50%);
+}
+.process .pro-info {
+    width: 6.85rem;
+    margin: .25rem auto 0;
+    font-size: .4rem;
+    color: #808080;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.process .pro-info  em{
+    color: red;
+}
+.footerlink{
+    position: fixed;
+    bottom: 1.4rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.footerlink a{
+    font-size: .293333rem;
+    color: #808080;
+}
+footer{
+    position: fixed;
+    bottom: 0rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.05rem;
+    padding-left: .36rem;
+    padding-right: .2rem;
+    background-color: #f0f0f0;
+}
+footer .earnings{
+    color: #f90;
+    font-size: .32rem;
+    text-decoration: underline;
+}
+footer .investment{
+    width: 5.19rem;
+    height: .82rem;
+    color: #fff;
+    background-color: #fa3432;
+    text-align: center;
+    line-height: .82rem;
+    font-size: .32rem;
+}
+.mask{
+    position: absolute;
+    top: .92rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: none; 
+}
+.mask .nav{
+    background-color: #fff;
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mask .nav a{
+    color: #f00;
+    font-size: .28rem;
+    width: 25%;
+    border-right: 1px solid #ddd;
+    text-align: center;
+}
+.mask .nav a .iconfont{
+    display: block;
+    font-size: .4rem;
+    margin: 0 auto;
+}
+.mask .nav a:last-child{
+    border-right: none;
+}
+
+
+
+
+
+
+
